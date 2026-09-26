@@ -1,8 +1,6 @@
-def multiply(a, b):
-       return a * b
-
-num1 = float(input("Введите первое число: "))
-num2 = float(input("Введите второе число: "))
-
-result = multiply(num1, num2)
-print(f"Результат: {num1} × {num2} = {result}")
+def multiply(expression):
+    """Принимает выражение вида 'a * b', вычисляет произведение и возвращает результат"""
+    parts = expression.split('*')
+    a = float(parts[0].strip())
+    b = float(parts[1].strip())
+    return a * b
