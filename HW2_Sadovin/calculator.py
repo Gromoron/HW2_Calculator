@@ -13,14 +13,19 @@ def main():
             result = "Ошибка: деление на 0"
         else:
             result = divide(num1, num2)
-    print(result)
+   print(result)
+  
+  
 def multiply(a, b):
     return a * b
-
+  
+def add(a, b):
+    return a + b
 def divide(a, b):
     return a / b
 
    
+
 
 
 main()
