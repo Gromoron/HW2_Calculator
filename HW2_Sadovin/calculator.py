@@ -14,6 +14,8 @@ def main():
         else:
             result = divide(num1, num2)
 
+def multiply(a, b):
+    return a * b
 
     print(result)
 
