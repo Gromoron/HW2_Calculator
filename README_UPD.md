@@ -7,7 +7,7 @@ Stick to basic operations, such as <mark>adding (+), substracting(-), multily(*)
 
 
 
-
+![Команда](team2.png)
 
 
 
