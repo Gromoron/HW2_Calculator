@@ -44,3 +44,10 @@ def main_function():
         print("Вы мне втерли какую то дичь, что такое", operator, "?")
         return
     print(result)
+
+
+def add(a, b):
+    return a + b
+
+
+
